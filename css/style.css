@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #222;
+}
+
+.clear{clear: both;}
+
+header{
+    width: 25%;
+    height: 100vh;
+    background-color: #333;
+    position: fixed;
+    float: left;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.divisor{
+    height: 1px;
+    background-color: #333;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px 0 0 0; 
+}
+
+.logo img{
+    width: 100%;
+}
+
+.menu-desktop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 0 40px 100px 40px;
+}
+
+.menu-desktop ul{
+    list-style-type: none;
+}
+
+.menu-desktop ul li{
+    width: 100%;
+    padding-top: 30px;
+    text-align: right;
+    font-size: 18px; 
+    font-weight: 300;
+    display: inline-block;
+    border-bottom: 2px solid #222;
+}
+
+.menu-desktop ul li:first-child{
+    padding-top: 0;
+}
+
+.menu-desktop ul li a{
+    color: #EAEAEA;
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* transition: 0.5s; */
+}
+
+.menu-desktop ul li a:hover{
+    color: #EF5350 !important;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+
+    color: #EAEAEA;
+    padding-bottom: 30px;
+}
+
+main.content{
+    width: 75vw;
+    float: right;
+}
+
+section.cintro{
+    padding-left: 12px;
+    width: 75vw;
+    height: 100vh;
+    background-color: #EF5350;
+    color: #444;
+    border: 0;
+}
+
+section.cabout{
+    padding-left: 12px; 
+    width: 75vw;
+    height: 100vh;
+    background-color: #444;
+    color: #EF5350;
+    border: 0;
+}
+
+section.cprojects{
+    padding-left: 12px; 
+    width: 75vw;
+    background-color: #EF5350;
+    color: #444;
+    border: 0;
+}
+
+section.cget{
+    padding-left: 12px; 
+    width: 75vw;
+    height: 100vh;
+    background-color: #444;
+    color: #EF5350;
+    border: 0;
+}
+
+.c-{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: left;
+}
+
+.c- h1{
+    font-size: 60px;
+    padding-bottom: 15px;
+}
+
+.c- p{
+    padding-bottom: 40px;
+    font-weight: normal;
+    font-size: 18px; 
+}
+
+a.btn1{
+    color: #fff;
+    background-color: #444;
+    border: 2px solid #444;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px; 
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+a.btn1:hover{
+    background-color: #EF5350;
+    border: 2px solid #444;
+    color: #444;
+}
+
+a.btn2{
+    color: #fff;
+    background-color: #EF5350;
+    border: 2px solid #EF5350;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px; 
+    transition: background-color 0.3s;
+}
+
+a.btn2:hover{
+    background-color: #444;
+    border: 2px solid #EF5350;
+    color: #EF5350;
+}
+
+.inner{
+    padding: 100px;
+}
+
+.features{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #444; 
+    border-radius: 10px;
+}
+
+.feat-single{
+    width: 50%;
+    padding: 30px;
+}
+
+.feat-single h2{
+    font-size: 170%; 
+}
+
+.feat-single i{
+    border-radius: 30px;
+    border: 1px solid #444;
+    padding: 5px;
+    color: #EF5350;
+    background-color: #444; 
+}
+
+.feat-single p{
+    max-width: 400px;
+}
+
+.feat-single h3{
+    padding-bottom: 20px;
+}
+
+.feat-single span{
+    font-size: 18px; 
+    padding-bottom: 30px;
+    display: inline-block;
+}
+
+.feat-single ul{
+    list-style-type: none;
+}
+
+.feat-single ul li{
+    display: inline-block;
+    font-size: 30px; 
+}
+
+.feat-single a{
+    color: #EF5350;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.feat-single a:hover,
+.feat-single a:hover i{
+    color:#fff;
+    transition: color 0.3s;
+}
+
+.borda{
+    border-right: 1px solid #444;
+}
+
+.borda-lado{
+    border-right: 1px solid #444;
+}
+
+.borda-top{
+    border-top: 1px solid #444;
+}
