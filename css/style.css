@@ -5,6 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 body{
     background-color: #222;
 }
@@ -258,4 +262,85 @@ a.btn2:hover{
 
 .borda-top{
     border-top: 1px solid #444;
+}
+
+@media screen and (max-width: 1000px){
+    header{
+        display: none;
+    }
+
+    .m{
+        margin-bottom: 40px;
+    }
+
+    .inner{
+        padding: 0 5%;
+    }
+
+    main.content{
+        max-width: 100%;
+        width: 100vw;
+        height: auto;
+        float: none;
+        padding: 0; 
+    }
+        
+    section.cintro{
+        padding-left: 0;
+        width: 100vw;
+        padding-top: 100px;
+    }
+
+    section.cabout{
+        padding-left: 0;
+        width: 100vw;
+        padding-top: 130px;
+        padding-bottom: 150px;
+    }
+
+    section.cprojects{
+        padding-left: 0;
+        width: 100vw;
+        padding-top: 50px;
+    }
+
+    section.cget{
+        padding-left: 0;
+        width: 100vw;
+        padding-top: 350px;
+        padding-bottom: 350px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    
+    .inner h1{
+        font-size: 50px; 
+    }
+
+    .feat-single{
+        width: 100%;
+        padding: 30px;
+        border-bottom: 1px solid #444;
+    }
+
+    .feat-single:last-child{
+        border: 0;
+    }
+
+    .borda{
+        border-bottom: 1px solid #444;
+        border-right: 0;
+    }
+
+    .inner{
+        padding: 0 5% 0 2%;
+        margin: 0 auto; 
+    }
+
+    .cabout .inner p{
+        text-align: justify;
+    }
+
 }
