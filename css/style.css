@@ -252,15 +252,29 @@ a.btn2:hover{
     transition: color 0.3s;
 }
 
-.borda{
+.first{
     border-right: 1px solid #444;
 }
 
-.borda-lado{
+.second{
+    border: 0;
+}
+
+.third{
+    border-top: 1px solid #444;
     border-right: 1px solid #444;
 }
 
-.borda-top{
+.fourth{
+    border-top: 1px solid #444;
+}
+
+.fifth{
+    border-top: 1px solid #444;
+    border-right: 1px solid #444;
+}
+
+.sixth{
     border-top: 1px solid #444;
 }
 
@@ -329,11 +343,6 @@ a.btn2:hover{
         border: 0;
     }
 
-    .borda{
-        border-bottom: 1px solid #444;
-        border-right: 0;
-    }
-
     .inner{
         padding: 0 5% 0 2%;
         margin: 0 auto; 
@@ -341,6 +350,32 @@ a.btn2:hover{
 
     .cabout .inner p{
         text-align: justify;
+    }
+
+    .first{
+        border: 0;
+    }
+    
+    .second{
+        border-top: 1px solid #444;
+    }
+    
+    .third{
+        border-top: 0;
+        border-right: 0;
+    }
+    
+    .fourth{
+        border-top: 0;
+    }
+    
+    .fifth{
+        border-top: 0;
+        border-right: 0;
+    }
+    
+    .sixth{
+        border-top: 1px solid #444;
     }
 
 }
